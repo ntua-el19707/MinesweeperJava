@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView   fx:id="StatsTable" prefHeight="346.0" prefWidth="549.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="Rounds" prefWidth="75.0" text="Rounds" />
+          <TableColumn  fx:id="Bombs" prefWidth="75.0" text="Bombs" />
+            <TableColumn fx:id="Time" prefWidth="113.60003662109375" text="Reaminig Time" />
+            <TableColumn fx:id="Winner" prefWidth="75.0" text="Winner" />
+
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <Label prefHeight="54.0" prefWidth="447.0" text="Stats for the last 5 Games" textFill="#11a932" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

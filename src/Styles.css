@@ -1,0 +1,34 @@
+.btn{
+    -fx-background-color: white;
+    -fx-text-fill:black;
+    -fx-border-color: green;
+
+}
+.btn:hover{
+-fx-background-color: green;
+}
+.Back{
+    -fx-background-color: aqua;
+}
+.Back:hover{
+    -fx-background-color: lightblue;
+}
+.Stats{
+-fx-background-color:aqua;
+-fx-text-fill:black;
+-fx-font-weight:bolder;
+-fx-font-size:13
+}
+.Stats:hover{
+-fx-background-color:white;
+}
+.MainButtons{
+    -fx-background-color:white;
+    -fx-text-fill:grey;
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+}
+.MainButtons:hover{
+    -fx-border-color:grey;
+    -fx-border-style:dashed
+}
